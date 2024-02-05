@@ -1,0 +1,545 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: rgb(233, 233, 243);
+}
+
+nav{
+  width: 100%;
+  height: 75px;
+  background-color: rgb(30, 28, 28);
+  display: flex;
+  text-align: center;
+}
+
+.logo{
+padding-left: 20px;
+padding-top: 15px;
+color: white;
+font-size: xx-large;
+}
+.logo img{
+  width: 200px;
+
+}
+
+.logo span{
+  color: rgb(137, 209, 95);
+  font-weight: 200;
+}
+.buy{
+  margin-left: 1485px;
+  padding-top: 20px;
+  
+}
+.buy button{
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+    border-radius: 6px;
+    font-size: large;
+    color: white;
+    background-color:  rgb(105, 164, 71) ;
+}
+
+
+
+
+
+
+.place{
+  display: flex;
+  height: 140px;
+  border-bottom: 1px solid rgb(200, 194, 194) ;
+}
+.place-con{
+ 
+  padding-top: 50px;
+ padding-left: 6%;
+ color: rgb(43, 43, 250);
+ font-size: xx-large;
+ font-weight: 600;
+}
+.place-con span{
+  color: orange;
+}
+.place-con svg{
+  width: 50px;
+  height: 50px;
+}
+
+.place-con1{
+  display: flex;
+}
+.place-con2{
+  display: flex;
+  margin-left: 29px;
+  margin-top: 44px;
+  width: 250px;
+  height: 60px;
+  border-left: 1px solid rgb(186, 181, 181);
+  border-right: 1px solid rgb(186, 181, 181);
+}
+
+.logo1,.logo2,.logo3{
+  width: 50px;
+  height: 50px; 
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.logo1{
+  background-color: blue;
+  margin-left: 300px;
+  margin-top: 10%;
+}
+.logo1 svg,.logo2 svg,.logo3 svg{
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+  
+}
+.logo2{
+  background-color: rgb(58, 213, 102);
+  margin-left: 25px;
+  margin-top: 1%;
+}
+
+
+
+.logo3{
+  background-color: orange;
+  margin-left: 20px;
+  margin-top: 1%;
+}
+
+.text1{
+  margin-left: 26px;
+  margin-top: 55px;
+}
+.text2{
+  margin-left: 26px;
+  margin-top: 5px;
+}
+.text3{
+  margin-left: 26px;
+  margin-top: 5px;
+}
+.text1 div,.text2 div,.text3 div{
+  font-size:x-large;
+  font-weight: 300;
+}
+
+.place-con3{
+  display: flex;
+  margin-left: 14px;
+  margin-top: 44px;
+}
+
+.button2{
+  
+  margin-top: 35px;
+  margin-left: 100px;
+}
+
+.button2 button{
+  width: 250px;
+  height: 80px;
+  border: 0 solid;
+  border-radius: 40px;
+  background-color: rgb(51, 32, 224);
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.place2{
+  height: 70px;
+ 
+}
+
+.items{
+  display: flex;
+}
+
+.items ul{
+  display: flex;
+  margin-left: 30px;
+}
+
+.items ul li{
+  list-style: none;
+  padding-left: 40px;
+  color: rgb(75, 75, 76);
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.items ul li span{
+  padding-left: 13px;
+  padding-bottom: 1px;
+  font-size: small;
+}
+
+
+.head-par {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  z-index: 4;
+}
+ .below div p{
+ text-align: center;
+ font-size: xx-large;
+ color: rgb(89, 92, 94);
+}
+.images{
+  position: relative;
+  bottom: 218px;
+
+}
+
+.images img{
+  width: 460px;
+  height: 470px;
+  
+}
+.img2{
+ position: relative;
+  bottom: 800px;
+  left: 1350px;
+  width: 470px;
+}
+
+.img2 img{
+  width: 460px;
+  height: 540px;
+}
+.tag{
+  
+  position: relative;
+  bottom: 1300px;
+  width: 200px;
+  left: 320px;
+}
+.tag img{
+  width: 150px;
+}
+
+.panel{
+  display: flex;
+  position: relative;
+  bottom: 1090px;
+  left: 80px;
+  width: 1600px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+.panel div{
+  font-size: large;
+  width: 200px;
+  height: 5px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border: 1px solid rgb(217, 212, 212);
+  border-radius: 30px;
+  margin-left: 150px;
+  text-align: center;
+  background: #efeff8;
+}
+.panel div span{
+  padding-left: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: rgb(233, 233, 243);
+  }
+  
+  nav {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(30, 28, 28);
+    display: flex;
+    text-align: center;
+  }
+  
+  .logo {
+    padding-left: 20px;
+    padding-top: 15px;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .logo img {
+    width: 38%; /* Adjusted for better responsiveness */
+  }
+  
+  .logo span {
+    color: rgb(137, 209, 95);
+    font-weight: 200;
+  }
+  
+  .buy {
+    margin-left: 76px;
+    padding-top: 18px;
+}
+  
+  
+  
+  .buy button {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: small;
+    color: white;
+    background-color: rgb(105, 164, 71);
+  }
+  
+  .place {
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    border-bottom: 1px solid rgb(200, 194, 194);
+  }
+  
+  .place-con {
+    padding-top: 0px; 
+    padding-left: 13%;
+    color: rgb(43, 43, 250);
+    font-size: large; 
+    font-weight: 600;
+  }
+  
+  .place-con span {
+    color: orange;
+  }
+  
+  .place-con svg {
+      width: 18px;
+      height: 50px;
+  }
+  .place2 {
+    height: 182px;
+    margin-left: 40px;
+}
+  
+  
+  
+  .place-con2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 136px;
+    margin-top: -27px;
+    width: 47%;
+    border-left: none;
+    border-right: none;
+}
+  
+ .logo2{
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: -34px;
+  margin-top: 57px
+ } 
+  
+  
+  
+  .place-con3 {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 44px;
+}
+
+
+  .logo1,  .logo3 {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 104px;
+    margin-top: 14px;
+}
+
+.text1, .text3 {
+  margin-left: 21px;
+  margin-top: 10px;
+}
+
+.text2 {
+  margin-left: 21px;
+  margin-top: -31px;
+}
+
+
+.text1 div, .text2 div,.text3 div {
+  font-size: small;
+  font-weight: 300;
+}
+
+.logo1 svg, .logo2 svg, .logo3 svg {
+  width: 27px;
+  height: 18px;
+  padding-top: 4px;
+}  
+  
+  
+  
+  
+  
+  
+
+  .button2 {
+      margin-top: 20px;
+      margin-left: 6pc;
+  }
+  
+  .button2 button {
+    width: 50%;
+    height: 60px;
+    border: 0 solid;
+    border-radius: 30px;
+    background-color: rgb(51, 32, 224);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .place2 {
+    height: 182px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .items ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  
+  .items ul li {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 10px;
+    color: rgb(75, 75, 76);
+    font-weight: 500;
+    font-size: medium; /* Adjusted for better readability on mobile */
+  }
+  
+  .items ul li span {
+    padding-left: 0;
+    padding-bottom: 5px;
+    font-size: small;
+  }
+  
+  .head-par {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    z-index: 4;
+  }
+  
+  .below div p {
+    text-align: center;
+    font-size:unset;
+    color: rgb(89, 92, 94);
+  }
+  
+  .images {
+    position: relative;
+    bottom: 10px;
+  }
+  
+
+  .images img {
+    width: 48%;
+    height: auto;
+}
+
+
+  
+.img2 {
+  position: relative;
+  bottom: 20px;
+  left: 230px;
+  width: 48%;
+} 
+  
+  
+  
+  
+  
+  .img2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+ .tag {
+     position: relative;
+     bottom: 612px;
+     left: 202px;
+     width: 10%;
+ }
+  .tag img {
+    width: 100%;
+  }
+  
+  
+  
+  
+  .panel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+    left: 77px;
+    width: 70%;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}  
+  
+
+  
+  .panel div {
+    font-size: medium; 
+    width: 100%;
+    height: 5px;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(217, 212, 212);
+    border-radius: 30px;
+    margin-left: 0;
+    text-align: center;
+    background: #efeff8;
+  }
+  .panel div span {
+    padding-left: 0;
+  }
+  
+}
+
